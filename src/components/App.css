@@ -1,0 +1,121 @@
+.generator-container{
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+.generator-card{
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header{
+    background-color: #d9534f;
+    height: 70px;
+    padding-top: 7px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo{
+    text-align: center;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-left: 25%;
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    border: 0px;
+}
+
+.logo:focus{
+    outline: none;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.back-ground{
+    background-color: #eaeaee;
+    min-height: 100vh;
+}
+
+.button{
+    background-color: #f0ad4e;
+    border: 1px solid #f0ad4e;
+    /* background-color: #f34560;
+    border: 1px solid #f34560; */
+    border-radius: 3px;
+    font-size: 19px;
+    height: 35px;
+    margin-left: 10px;
+    color: white;
+}
+
+.input{
+    height: 35px;
+    margin-right: 1px;
+    font-size: 19px;
+}
+
+.meme{
+    margin-top: 40px;
+}
+
+.text{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 0px;
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: impact, sans-serif;
+    text-transform: uppercase;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.allimages-container{
+    padding: 110px 40px 40px 40px;
+}
+
+.showButtonContainer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-container{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.img-container:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div.allimages-container img{
+    width: 106px;
+    height: 106px;
+}
