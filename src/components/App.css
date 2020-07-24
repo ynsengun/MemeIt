@@ -1,5 +1,5 @@
 .generator-container{
-    width: 50%;
+    width: 700px;
     margin: 0px auto;
     padding-top: 70px;
 }
@@ -22,11 +22,15 @@
     z-index: 1;
 }
 
+.logo-container{
+    width: 700px;
+    margin: 0px auto;
+}
+
 .logo{
     text-align: center;
     font-size: 35px;
     color: whitesmoke;
-    margin-left: 25%;
     font-family: 'Quicksand', sans-serif;
     background: transparent;
     border: 0px;
@@ -49,8 +53,6 @@
 .button{
     background-color: #f0ad4e;
     border: 1px solid #f0ad4e;
-    /* background-color: #f34560;
-    border: 1px solid #f34560; */
     border-radius: 3px;
     font-size: 19px;
     height: 35px;
@@ -91,7 +93,10 @@
 }
 
 .allimages-container{
-    padding: 110px 40px 40px 40px;
+    display: inline-block;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .showButtonContainer{
@@ -102,20 +107,37 @@
 
 .img-container{
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
     padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
     overflow: hidden;
 }
 
 .img-container:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.allimages-container img{
-    width: 106px;
-    height: 106px;
+    width: 186px;
+    height: 186px;
+}
+
+.footer{
+    width: 90%;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    font-size: 11px;
+    text-align: center;
+}
+
+.linkedin-icon{
+    font-size: 16px;
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+}
+
+.linkedin-icon:hover{
+    color: gray;
 }

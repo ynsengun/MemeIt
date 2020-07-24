@@ -5,7 +5,9 @@ class Header extends React.Component{
     render(){
         return(
             <div className="header">
-                <button className="logo">Meme Generator</button>
+                <div className="logo-container">
+                    <button className="logo">Meme Generator</button>
+                </div>
             </div>
         )
     }
